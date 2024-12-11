@@ -3,8 +3,6 @@
 
 ## Mushroom Classification
 
-### One Sentence Summary
-
 This repository holds an attempt to classify mushrooms into edible or poisonous categories using a decision tree on the [Mushroom Classification Dataset](https://www.kaggle.com/datasets/uciml/mushroom-classification) from Kaggle.
 
 ---
