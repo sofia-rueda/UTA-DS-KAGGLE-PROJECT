@@ -192,9 +192,6 @@ The project follows a standard structure where different tasks such as data prep
 * data cleaning & preprocessing.ipynb: Functions for data cleaning, and preprocesses the input dataset and prepares the data for machine learning.
 * data visualization.ipynb: Creates various visualizations to understand the dataset.
 * machine learning.ipynb: Defines and contains the machine learning model (Decision Tree), trains the Decision Tree Classifier, and evaluates the performance of the trained model.
-
-Certainly! Here's the **Software Setup** section without the code:
-
 ---
 
 ### **Software Setup for Mushroom Classification Project**
