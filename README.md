@@ -181,6 +181,8 @@ The approach in this repository formulates the problem as a classification task,
 #### **6. Visualizing Model Performance**
    - **Feature Importance**:  
      Since I am using a decision tree, the model will provide **feature importance** scores. Visualize these to see which features contribute the most to the classification.
+    ![image](https://github.com/user-attachments/assets/654d3009-6c46-4e84-ada5-1c8596bb972e)
+
 
 ---
 ## **Overview of files in repository**
