@@ -92,10 +92,11 @@ The approach in this repository formulates the problem as a classification task,
 ### **Data Visualization**
 
 - **For Classification**:  
-  Bar plots and heatmaps are used to visualize the percentage distribution of each feature across the two classes (edible vs. poisonous). These visualizations help identify patterns in feature distributions between the classes.
-
-- **Class-Based Feature Distribution**:
    - Bar plots and heatmaps are used to compare how the features (such as odor, cap shape, etc.) are distributed across the classes. These visualizations allow for the identification of which features are more strongly associated with each class.
+![image](https://github.com/user-attachments/assets/d68f34fc-9488-4cb3-b2c3-8381df41e1da)
+![image](https://github.com/user-attachments/assets/2b1a3803-044c-4a7f-98e9-238779ec6af0)
+![image](https://github.com/user-attachments/assets/b82eb172-7cc8-414c-918d-ef96c153b01b)
+![image](https://github.com/user-attachments/assets/fb374f8f-6971-4880-9583-4d955c37f34a)
 
 ---
 ### **Machine Learning**
@@ -146,12 +147,7 @@ The approach in this repository formulates the problem as a classification task,
      - **1**: Poisonous
 
    - **Feature Selection**:  
-     I need to select the relevant features for the decision tree model. Features that may include:
-     - Cap shape
-     - Cap surface
-     - Gill size
-     - Odor, etc.
-     Remove any irrelevant columns, such as ID numbers or already encoded features (e.g., from one-hot encoding), to avoid redundancy.
+     I need to select the relevant features for the decision tree model. Remove any irrelevant columns, such as ID numbers or already encoded features (e.g., from one-hot encoding), to avoid redundancy.
 
    - **Data Splitting**:  
      After cleaning and encoding the data, split it into training, validation, and test sets. I used  `train_test_split` from `sklearn.model_selection` to divide the data.
